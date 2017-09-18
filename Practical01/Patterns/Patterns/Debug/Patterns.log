@@ -1,0 +1,7 @@
+﻿  Main.cpp
+  GraphicProxy.cpp
+  Graphic.cpp
+  Generating Code...
+c:\users\gameuser\documents\projects (ge)\patterns\patterns\graphicproxy.cpp(22): warning C4715: 'GraphicProxy::getInstance': not all control paths return a value
+  Patterns.vcxproj -> C:\Users\gameuser\Documents\Projects (GE)\Patterns\Debug\Patterns.exe
+  Patterns.vcxproj -> C:\Users\gameuser\Documents\Projects (GE)\Patterns\Debug\Patterns.pdb (Partial PDB)
