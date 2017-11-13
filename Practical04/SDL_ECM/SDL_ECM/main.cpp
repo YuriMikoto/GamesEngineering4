@@ -1,4 +1,14 @@
 #include "SDL.h"
+#include "Entity.h"
+
+#include "HealthComponent.h"
+#include "PositionComponent.h"
+#include "ControlComponent.h"
+
+#include "AISystem.h"
+#include "ControlSystem.h"
+#include "RenderSystem.h"
+
 #include <iostream>
 
 using namespace std;
@@ -13,7 +23,52 @@ int main(int argc, char *argv[]) {
 	SDL_RenderClear(renderer);
 	SDL_RenderPresent(renderer);
 
-	//
+	Entity player(0);
+	HealthComponent playerHC;
+	PositionComponent playerPC;
+	ControlComponent playerCC;
+	player.addComponent(playerHC);
+	player.addComponent(playerPC);
+	player.addComponent(playerCC);
+
+	Entity alien(1);
+	HealthComponent alienHC;
+	PositionComponent alienPC;
+	alien.addComponent(alienHC);
+	alien.addComponent(alienPC);
+
+	Entity dog(2);
+	HealthComponent dogHC;
+	PositionComponent dogPC;
+	dog.addComponent(dogHC);
+	dog.addComponent(dogPC);
+
+	Entity cat(3);
+	HealthComponent catHC;
+	PositionComponent catPC;
+	cat.addComponent(catHC);
+	cat.addComponent(catPC);
+
+	AISystem as;
+	as.addEntity(player);
+	as.addEntity(alien);
+	as.addEntity(dog);
+	as.addEntity(cat);
+
+	ControlSystem cs;
+	cs.addEntity(player);
+
+	RenderSystem rs;
+	rs.addEntity(player);
+	rs.addEntity(alien);
+	rs.addEntity(dog);
+	rs.addEntity(cat);
+
+	while (true) {
+		as.update();
+		cs.update();
+		rs.update();
+	}
 
 	return 0;
 }
