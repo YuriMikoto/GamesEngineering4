@@ -11,6 +11,8 @@
 
 #include <iostream>
 
+#include <assert.h>
+
 using namespace std;
 
 int main(int argc, char *argv[]) {
@@ -63,6 +65,10 @@ int main(int argc, char *argv[]) {
 	rs.addEntity(alien);
 	rs.addEntity(dog);
 	rs.addEntity(cat);
+
+	assert(dogHC.getHealth() == 100); //Correct. Does not interrupt the program.
+	//assert(catPC.getXPosition() == 9); //This will cause a break point. Uncomment if you want to see that. 
+	//Alternatively, set Test as startup project and watch it break because of pretty much the exact same thing.
 
 	while (true) {
 		as.update();

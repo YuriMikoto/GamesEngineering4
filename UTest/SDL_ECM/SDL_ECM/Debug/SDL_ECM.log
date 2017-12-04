@@ -2,6 +2,5 @@
 c:\users\gameuser\documents\projects (ge)\gamesengineering4\utest\sdl_ecm\sdl_ecm\aisystem.h(12): warning C4018: '<': signed/unsigned mismatch
 c:\users\gameuser\documents\projects (ge)\gamesengineering4\utest\sdl_ecm\sdl_ecm\controlsystem.h(12): warning C4018: '<': signed/unsigned mismatch
 c:\users\gameuser\documents\projects (ge)\gamesengineering4\utest\sdl_ecm\sdl_ecm\rendersystem.h(12): warning C4018: '<': signed/unsigned mismatch
-     Creating library C:\Users\gameuser\Documents\Projects (GE)\GamesEngineering4\UTest\SDL_ECM\Debug\SDL_ECM.lib and object C:\Users\gameuser\Documents\Projects (GE)\GamesEngineering4\UTest\SDL_ECM\Debug\SDL_ECM.exp
   SDL_ECM.vcxproj -> C:\Users\gameuser\Documents\Projects (GE)\GamesEngineering4\UTest\SDL_ECM\Debug\SDL_ECM.exe
   SDL_ECM.vcxproj -> C:\Users\gameuser\Documents\Projects (GE)\GamesEngineering4\UTest\SDL_ECM\Debug\SDL_ECM.pdb (Partial PDB)
