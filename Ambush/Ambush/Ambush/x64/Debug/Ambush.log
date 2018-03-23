@@ -1,0 +1,11 @@
+﻿  main.cpp
+c:\users\gameuser\documents\projects (ge)\gamesengineering4\ambush\ambush\ambush\aibehaviour.h(26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\documents\projects (ge)\gamesengineering4\ambush\ambush\ambush\aibehaviour.h(27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\documents\projects (ge)\gamesengineering4\ambush\ambush\ambush\aibehaviour.h(35): warning C4244: '=': conversion from 'std::numeric_limits<int>::_Ty' to 'float', possible loss of data
+c:\users\gameuser\documents\projects (ge)\gamesengineering4\ambush\ambush\ambush\aibehaviour.h(36): warning C4244: '=': conversion from 'std::numeric_limits<int>::_Ty' to 'float', possible loss of data
+c:\users\gameuser\documents\projects (ge)\gamesengineering4\ambush\ambush\ambush\aibehaviour.h(37): warning C4244: '=': conversion from 'std::numeric_limits<int>::_Ty' to 'float', possible loss of data
+c:\users\gameuser\documents\projects (ge)\gamesengineering4\ambush\ambush\ambush\aibehaviour.h(64): warning C4244: '=': conversion from 'std::numeric_limits<int>::_Ty' to 'float', possible loss of data
+c:\users\gameuser\documents\projects (ge)\gamesengineering4\ambush\ambush\ambush\aibehaviour.h(65): warning C4244: '=': conversion from 'std::numeric_limits<int>::_Ty' to 'float', possible loss of data
+c:\users\gameuser\documents\projects (ge)\gamesengineering4\ambush\ambush\ambush\aibehaviour.h(66): warning C4244: '=': conversion from 'std::numeric_limits<int>::_Ty' to 'float', possible loss of data
+  Ambush.vcxproj -> C:\Users\gameuser\Documents\Projects (GE)\GamesEngineering4\Ambush\Ambush\x64\Debug\Ambush.exe
+  Ambush.vcxproj -> C:\Users\gameuser\Documents\Projects (GE)\GamesEngineering4\Ambush\Ambush\x64\Debug\Ambush.pdb (Partial PDB)
